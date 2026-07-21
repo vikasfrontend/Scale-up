@@ -2820,3 +2820,639 @@ margin: 60px 60px 0px 60px;
     }
 
 }
+
+.essentials-hero{
+    position:relative;
+    overflow:hidden;
+    background: #3BBDC6;
+    padding:120px 0 55px;
+    /* height: 400px; */
+}
+.financial-page .navbar{
+    background: #3BBDC6;
+}
+a{
+    text-decoration-line: none;
+      color: inherit;
+}
+.essentials-hero .container{
+    position:relative;
+    z-index:2;
+}
+
+.essentials-subheading{
+ color:#ffffff;
+font-family:"Montserrat",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 114%;
+letter-spacing: -3%;
+text-transform: uppercase;
+text-decoration-line: none;
+}
+.essentials-subheading span{
+ font-style: bold;
+ font-weight: 700;
+}
+
+.essentials-heading{
+color:#ffffff;
+font-family:"Mulish",sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 65px;
+line-height: 110.00000000000001%;
+letter-spacing: -3%;
+margin-top: 70px;
+}
+
+.essentials-tagline{
+color:#ffffff;
+font-family:"Montserrat",sans-serif;
+font-style: Bold;
+font-size: 18px;
+line-height: 114.99999999999999%;
+letter-spacing: -3%;
+text-transform: uppercase;
+margin-top: 18px;
+}
+.essentials-pattern{
+    position:absolute;
+    top:100px;
+    right:0;
+    width:42%;
+    height:100%;
+}
+
+.essentials-pattern .box{
+    position:absolute;
+    background:rgba(255,255,255,.15);
+    border-radius:8px;
+}
+
+/* Large */
+
+.box-1{
+    width:200px;
+    height:95px;
+    top:20px;
+    left:70px;
+}
+
+.box-2{
+    width:70px;
+    height:70px;
+    top:130px;
+    left:120px;
+}
+
+/* Medium */
+
+.box-3{
+    width:55px;
+    height:55px;
+    top:20px;
+    left:175px;
+}
+
+.box-4{
+    width:50px;
+    height:50px;
+    top:90px;
+    left:185px;
+}
+
+.box-5{
+    width:45px;
+    height:45px;
+    top:150px;
+    left:200px;
+}
+
+.box-6{
+    width:35px;
+    height:35px;
+    top:35px;
+    left:245px;
+}
+.box-7{
+    width:28px;
+    height:28px;
+    top:95px;
+    left:255px;
+}
+.box-8{
+    width:24px;
+    height:24px;
+    top:140px;
+    left:255px;
+}
+.box-9{
+    width:24px;
+    height:24px;
+    top:175px;
+    left:285px;
+}
+.box-10{
+    width:18px;
+    height:18px;
+    top:115px;
+    left:305px;
+}
+@media(max-width:991px){
+
+    .essentials-heading{
+        font-size:36px;
+    }
+
+    .essentials-tagline{
+        font-size:15px;
+    }
+
+    .essentials-pattern{
+        display:none;
+    }
+}
+.financial-overview-section{
+    padding:80px 0;
+    background:#fff;
+}
+.financial-overview-box{
+    position:relative;
+    /* border:2px solid #42D4E8; */
+    border: 3px solid #3BBDC6;
+    border-right:none;
+    border-top: none;
+    border-radius:24px 0 0 24px;
+    padding:60px 170px 35px 30px;
+    min-height:190px;
+    display:flex;
+    align-items:center;
+}
+.financial-overview-box::after{
+    content:"";
+    position:absolute;
+    top:2px;
+    right:0;
+    width:50px;
+    /* height:2px; */
+    background:#fff;
+}
+
+.financial-overview-box p{
+margin:0;
+color:#083336;
+font-family:"Mulish",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 0%;
+}
+
+.financial-overview-image{
+    text-align:right;
+}
+
+.financial-overview-image img{
+    width:100%;
+    max-width:200px;
+    border-radius:0 20px 20px 20px;
+    display:block;
+    margin-left:-25px;
+    margin-top: 80px;
+}
+
+@media(max-width:991px){
+
+    .financial-overview-box{
+        border-right:2px solid #42D4E8;
+        border-radius:18px;
+        padding:25px;
+        margin-bottom:30px;
+    }
+
+    .financial-overview-box::after{
+        display:none;
+    }
+
+    .financial-overview-image{
+        text-align:center;
+    }
+
+    .financial-overview-image img{
+        margin:auto;
+    }
+}
+.financial-modeling-section{
+    padding:80px 0;
+    background:#fff;
+}
+.financial-modeling-bg{
+    background: #3BBDC61A;
+
+}
+.financial-modeling-header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    /* margin-bottom:30px; */
+}
+.financial-modeling-title{
+ color: #083336;
+font-family:"Mulish",sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 42px;
+line-height: 114.99999999999999%;
+letter-spacing: -3%;
+margin-bottom: 27px;
+}
+
+.financial-modeling-badge{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    margin-top: -15px;
+}
+
+.financial-modeling-badge::before{
+    content:"";
+    position:absolute;
+    width:34px;
+    height:34px;
+    background:#fff;
+    border-radius:50%;
+    z-index:1;
+}
+
+.financial-modeling-badge span{
+position:relative;
+z-index:2;
+font-family:"Montserrat",sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #083336;
+}
+
+.badge-7{
+    background:conic-gradient(
+        #083336 0deg 70deg,
+        #D9F3F7 70deg 360deg
+    );
+}
+.badge-8{
+    background:conic-gradient(
+        #083336 0deg 140deg,
+        #D9F3F7 70deg 360deg
+    );
+}
+.badge-9{
+    background:conic-gradient(
+        #083336 0deg 210deg,
+        #D9F3F7 70deg 360deg
+    );
+}
+.badge-10{
+    background:conic-gradient(
+        #083336 0deg 280deg,
+        #D9F3F7 70deg 360deg
+    );
+}
+.badge-11{
+    background:conic-gradient(
+        #083336 0deg 360deg,
+        #D9F3F7 70deg 360deg
+    );
+}
+
+.financial-modeling-block{
+    position:relative;
+    z-index:2;
+    margin-bottom:28px;
+    margin-left: 55px;
+}
+
+.financial-modeling-subtitle{
+color: #083336;
+font-family:"Montserrat",sans-serif;
+margin-bottom:12px;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+}
+
+.financial-modeling-text{
+color: #083336;
+font-family:"Mulish",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 0%;
+margin-bottom: 30px;
+}
+
+.financial-modeling-card{
+    background:#fff;
+    border:1px solid #D9E3E5;
+    border-radius:12px;
+    padding:22px;
+    height:100%;
+    transition:.3s;
+}
+.financial-modeling-card-active{
+    background:#DCE3E5;
+}
+
+.financial-modeling-card h6{
+color:#083336;
+font-family:"Montserrat",sans-serif;
+font-weight: 900;
+font-style: Black;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+}
+
+.financial-modeling-card ul{
+    margin:0;
+    padding-left:18px;
+
+}
+.financial-modeling-card li{
+ color:#083336;
+margin-bottom:10px;
+font-family:"Mulish",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+}
+
+.financial-modeling-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.financial-modeling-process{
+    margin:0;
+    padding-left:20px;
+}
+
+.financial-modeling-process li{
+margin-bottom:8px;
+font-family:"Mulish",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+ color:#083336;
+}
+
+@media(max-width:991px){
+
+    .financial-modeling-section{
+        padding:60px 0;
+    }
+
+    .financial-modeling-header{
+        flex-wrap:wrap;
+    }
+
+    .financial-modeling-title{
+        font-size:26px;
+    }
+
+    .financial-modeling-content{
+        padding:25px;
+    }
+
+    .financial-modeling-watermark{
+        display:none;
+    }
+
+    .financial-modeling-card{
+        margin-bottom:20px;
+    }
+}
+.startup-package-page .navbar{
+    background: #FFFFFF;
+
+}
+.startup-package-page .navbar .nav-link{
+    color:#083336 !important;
+}
+.startup-package-hero{
+    position:relative;
+    overflow:hidden;
+    background: #FFFFFF;
+    padding:130px 0 70px;
+}
+
+.startup-package-hero .container{
+    position:relative;
+    z-index:2;
+}
+
+.startup-package-breadcrumb{
+color:#083336;
+font-family:"Montserrat",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 114.99999999999999%;
+letter-spacing: -3%;
+text-transform: uppercase;
+}
+.startup-package-breadcrumb span{
+    font-weight: 700;
+    font-style: bold;
+}
+.startup-package-page .logo-home{
+    display:none;
+}
+
+.startup-package-page .logo-inner{
+    display:block;
+}
+
+.startup-package-title{
+color:#083336;
+font-family:"Mulish",sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 65px;
+line-height: 110.00000000000001%;
+letter-spacing: -3%;
+margin-top: 50px;
+}
+
+.startup-package-subtitle{
+color:#083336;
+font-family:"Montserrat",sans-serif;
+font-weight: 500;
+font-style: Bold;
+font-size: 20px;
+line-height: 114.99999999999999%;
+letter-spacing: -3%;
+text-transform: uppercase;
+margin-top: 18px;
+}
+@media (max-width:991px){
+
+    .startup-package-title{
+        font-size:36px;
+    }
+
+    .startup-package-subtitle{
+        font-size:15px;
+    }
+
+    .startup-package-pattern{
+        display:none;
+    }
+}
+.startup-fundraising-section{
+    background: #3BBDC6;
+    padding:70px 0;
+}
+.startup-fundraising-image-wrapper{
+    position:relative;
+    width:260px;
+}
+
+.startup-fundraising-image{
+    width:100%;
+    border-radius:22px;
+    position:relative;
+    z-index:2;
+}
+
+.startup-fundraising-content{
+    max-width:650px;
+}
+
+.startup-fundraising-content p{
+ color:#083336;
+font-family:"Mulish",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+}
+.startup-fundraising-content{
+    position: relative;
+    padding: 35px 35px 35px 30px;
+    margin-left: 20px;
+}
+
+/* Left Border + Bottom Border */
+.startup-fundraising-content::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: calc(100% - 20px);
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-bottom-left-radius: 26px;
+}
+.startup-fundraising-content::after{
+    content:"";
+    position:absolute;
+    left:-150px;
+    top:20px;
+    width:150px;
+    height:20px;
+    border-top:2px solid #fff;
+    border-top-right-radius:26px;
+}
+
+@media(max-width:991px){
+
+    .startup-fundraising-image-wrapper{
+
+        margin:auto;
+        margin-bottom:35px;
+    }
+
+    .startup-fundraising-content{
+
+        text-align:center;
+        max-width:100%;
+    }
+
+}
+.value-proposition-section{
+    padding:90px 0;
+    background:#fff;
+}
+.package-audience-light{
+    background: #F4F4F4;
+}
+
+.value-proposition-card h2{
+color:#083336;
+font-family:"Mulish",sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 42px;
+line-height: 114.99999999999999%;
+letter-spacing: -3%;
+}
+
+.value-proposition-card p{
+ color:#083336;
+font-family:"Mulish",sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+margin-top: 25px;
+}
+
+.value-proposition-image-wrapper{
+    position:relative;
+    width:350px;
+    margin-left:auto;
+}
+
+.value-proposition-main-image{
+    width:100%;
+    border-radius:16px;
+    display:block;
+    position:relative;
+    z-index:2;
+}
+.investor-value-section{
+    background: #083336;
+}
+.investor-value-section h2{
+    color:#ffffff;
+}
+.investor-value-section p{
+    color:#ffffff;
+}
+.investor-value-section li{
+    color:#ffffff;
+}
